@@ -16,3 +16,4 @@ for c in range(0, 10):
     print(" {} ".format(num), end="-")
     num += raz
 print("FIM")
+

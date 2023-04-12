@@ -30,3 +30,4 @@ while n != 0:
     # print("x" if c > 1 else "=", end=" ") 
     #print(fatorial)
     n -= 1
+    
