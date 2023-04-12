@@ -4,6 +4,30 @@ from time import sleep
 
 numero = randint(0, 10)
 #print(numero)
+print("Sou seu computador.. Acabei de pensar em um número dentre 0 e 10.")
+print("Será que você consegue adivinhar qual foi?")
+acertou = False
+palpite = 0
+while not acertou:
+    palpite += 1
+    #print("{} palpite".format(palpite))
+    jogador = int(input("Digite um valor:"))
+    print("Processando...")
+    sleep(1)
+    if jogador == numero:
+        acertou = True
+    else:
+        if jogador > numero:
+            print("Menos...")
+        elif jogador < numero:
+            print("Mais ....")
+print("Parabens vc acertou em {} tentativas".format(palpite))
+
+
+
+#ou
+numero = randint(0, 10)
+#print(numero)
 print("\033[34m=-="*20)
 print("\033[37mVou pensar em um número entre 0 e 10.Tente adivinhar...")
 print("\033[34m=-=\033[m"*20)
