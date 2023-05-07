@@ -18,4 +18,4 @@ def leia_dinheiro(n):
             break
         except ValueError:
               print(f"\033[31mErro \'{valor}\' é um preço inválido\033[m.")
-    return valor          
+    return valor   
